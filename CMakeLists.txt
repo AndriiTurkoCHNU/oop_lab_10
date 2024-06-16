@@ -4,4 +4,5 @@ project(oop_lab_10)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(oop_lab_10 main.cpp
-        task_1.h)
+        task_1.h
+        task_3.h)
