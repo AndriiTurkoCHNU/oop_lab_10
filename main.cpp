@@ -1,6 +1,7 @@
 #include <iostream>
 #include "task_1.h"
 #include "task_3.h"
+#include "task_4.h"
 
 using namespace std;
 
@@ -19,6 +20,12 @@ int main() {
         cout << rank << " ";
     }
     cout << endl;
+
+    // task_4
+    string sentence1 = "This is a sentence";
+    string sentence2 = "This is not a sentence";
+    string result = areSentencesSimilar(sentence1, sentence2) ? "true" : "false";
+    cout << result << endl;
 
     return 0;
 }
